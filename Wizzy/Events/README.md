@@ -48,7 +48,7 @@ Use this file for modifying the product data: Wizzy/Events/Observer/ProductCateg
 
 3. Run the following commands from the root directory of your Magento 2 
  
-- php bin/magento module:enable Wizzy_Search
+- php bin/magento module:enable Wizzy_Events
 - php bin/magento setup:upgrade
 - php bin/magento setup:di:compile
 - php bin/magento cache:flush
